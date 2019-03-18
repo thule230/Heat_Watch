@@ -1,9 +1,11 @@
 create table HeatWatch (
+   idHeatWatch int primary key identity (1,1),
    data_dia varchar(10),
    horario varchar(10),
    temperatura varchar(5),
    umidade varchar(5)
 );
+
 insert into HeatWatch values
 ('07/01/2019', '00:00', '23°C', '45%'),
 ('07/01/2019', '04:00', '24°C', '42%'),
