@@ -1,0 +1,16 @@
+create table HeatWatch (
+   data_dia varchar(10),
+   horario varchar(10),
+   temperatura varchar(5),
+   umidade varchar(5)
+);
+insert into HeatWatch values
+('07/01/2019', '00:00', '23°C', '45%'),
+('07/01/2019', '04:00', '24°C', '42%'),
+('07/01/2019', '08:00', '25°C', '30%'),
+('07/01/2019', '12:00', '33°C', '28%'),
+('07/01/2019', '16:00', '30°C', '30%'),
+('07/01/2019', '20:00', '28°C', '35%'),
+('08/01/2019', '00:00', '25°C', '29%');
+
+select * from HeatWatch;
